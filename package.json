@@ -11,8 +11,6 @@
   "devDependencies": {
     "browserify": "^13.1.1",
     "gulp-uglify": "^2.0.0",
-    "karma": "^1.3.0",
-    "karma-browserify": "^5.1.0",
     "licensify": "^3.1.2",
     "tsify": "^2.0.3",
     "vinyl-buffer": "^1.0.0",
@@ -20,7 +18,6 @@
     "watchify": "^3.8.0"
   },
   "dependencies": {
-    "gulp": "^3.9.1",
-    "typings": "^2.0.0"
+    "gulp": "^3.9.1"
   }
 }

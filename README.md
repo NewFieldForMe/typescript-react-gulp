@@ -1,5 +1,5 @@
-# React + Typescript + gulp + karma
-This repository is for karma, gulp building exercises. 
+# React + Typescript + gulp
+This repository is for gulp building exercises. 
 I have not had much experience building front side applications.
 I'm sorry if I made a mistake. And I'm sorry that my English is very cheap.  
 
