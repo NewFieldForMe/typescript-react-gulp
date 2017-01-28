@@ -20502,9 +20502,15 @@ const React = require("react");
 // State is never set so we use the 'undefined' type.
 class Hello extends React.Component {
     render() {
-        return React.createElement("h1", null, "Hello from ", this.props.compiler, " and ", this.props.framework, "!");
+        return React.createElement("div", { className: "Hello" }, React.createElement("p", null, "Test"), React.createElement(Dummy, { name: "testName", testing: "testing" }), React.createElement("h1", null, "Hello from ", this.props.compiler, " and ", this.props.framework, "!"));
     }
 }
 exports.Hello = Hello;
+class Dummy extends React.Component {
+    render() {
+        return React.createElement("p", null, this.props.name, " OK ", this.props.testing);
+    }
+}
+exports.Dummy = Dummy;
 
 },{"react":177}]},{},[178]);
