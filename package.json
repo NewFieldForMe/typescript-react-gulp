@@ -11,9 +11,11 @@
   "devDependencies": {
     "@types/react": "^15.0.4",
     "@types/react-dom": "^0.14.21",
+    "babelify": "^7.3.0",
     "browserify": "^13.1.1",
     "gulp-uglify": "^2.0.0",
     "licensify": "^3.1.2",
+    "react-dom": "^15.4.2",
     "tsify": "^2.0.3",
     "typescript": "^2.1.5",
     "vinyl-buffer": "^1.0.0",
