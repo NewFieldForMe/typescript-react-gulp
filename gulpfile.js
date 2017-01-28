@@ -4,10 +4,10 @@ var source = require('vinyl-source-stream');
 
 gulp.task('build', function() {
     browserify({
-        entries: ['src/main.tsx']
+        entries: ['src/app.tsx']
     })
     .plugin('tsify')
     .bundle()
-    .pipe(source('main.js'))
+    .pipe(source('app.js'))
     .pipe(gulp.dest('./dest/js'))
 });
